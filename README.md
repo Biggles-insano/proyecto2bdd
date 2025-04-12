@@ -19,10 +19,12 @@ Antes de ejecutar el programa, asegúrate de contar con lo siguiente:
 
 ## Como ejecutar el programa
 
+```bash
 1. ¿Cómo ejecutar el programa?
 
--git clone https://github.com/tu_usuario/tu_repositorio.git
--cd tu_repositorio/www
+git clone https://github.com/tu_usuario/tu_repositorio.git
+
+-cd tu_repositorio
 
 2. Crear la base de datos e importar el script
 
@@ -43,5 +45,6 @@ conn = psycopg2.connect(
 
 -Cambia "TU_USUARIO" y "TU_CONTRASEÑA" por tus credenciales reales de PostgreSQL.
 
+4. Corre el programa con el comando
 -python hilos.py
 
